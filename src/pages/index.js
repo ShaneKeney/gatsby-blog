@@ -1,7 +1,7 @@
 import * as React from "react";
 import { graphql, Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
