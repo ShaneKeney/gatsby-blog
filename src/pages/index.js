@@ -20,7 +20,7 @@ export default ({ data }) => (
     <Seo title="Home" />
     <div>
       <h1>Shane's Thoughts</h1>
-      <h4>{data.allMarkdownRemark.totalCount}</h4>
+      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
     </div>
     <div className={styles.textCenter}>
       <StaticImage
